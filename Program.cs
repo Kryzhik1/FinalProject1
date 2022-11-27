@@ -11,3 +11,13 @@ void PrintArray(string[] array)
     }
     Console.WriteLine();
 }
+Console.Write("Количество элементов в массиве ");
+int size = Convert.ToInt32(Console.ReadLine());
+
+string[] arrayStrings = new string[size];
+for (int i = 0; i < size; i++)
+{
+    Console.WriteLine($"Введите {i + 1} элемент: ");
+    string symbol = Console.ReadLine()!;
+    arrayStrings[i] = symbol;
+}
