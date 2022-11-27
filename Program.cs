@@ -21,3 +21,6 @@ for (int i = 0; i < size; i++)
     string symbol = Console.ReadLine()!;
     arrayStrings[i] = symbol;
 }
+string[] arrayFinal = new string[size];
+int length = 3;
+int count = 0;
